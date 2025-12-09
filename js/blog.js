@@ -39,27 +39,6 @@
             card.appendChild(cardMeta);
         }
         
-        // Add tags if available
-        if (post.tags && post.tags.length > 0) {
-            const tagsDiv = document.createElement('div');
-            tagsDiv.style.display = 'flex';
-            tagsDiv.style.gap = 'var(--space-sm)';
-            tagsDiv.style.flexWrap = 'wrap';
-            tagsDiv.style.marginTop = 'var(--space-sm)';
-            
-            post.tags.forEach(tag => {
-                const tagSpan = document.createElement('span');
-                tagSpan.textContent = tag;
-                tagSpan.style.padding = '0.25rem 0.5rem';
-                tagSpan.style.background = 'var(--color-border)';
-                tagSpan.style.borderRadius = '0.25rem';
-                tagSpan.style.fontSize = '0.75rem';
-                tagsDiv.appendChild(tagSpan);
-            });
-            
-            card.appendChild(tagsDiv);
-        }
-        
         return card;
     }
     
@@ -110,8 +89,20 @@
             if (posts.length === 0) {
                 container.innerHTML = '<p>No blog posts available yet. Add markdown files to the <code>/blog</code> folder!</p>';
             } else {
-                posts.forEach(post => {
-                    container.appendChild(createPostCard(post));
+                posts.forEach((post, index) => {
+                    const postWrapper = document.createElement('div');
+                    postWrapper.appendChild(createPostCard(post));
+                    
+                    // Add horizontal line after each post except the last one
+                    if (index < posts.length - 1) {
+                        const hr = document.createElement('hr');
+                        hr.style.border = 'none';
+                        hr.style.borderTop = '1px solid var(--color-border)';
+                        hr.style.margin = 'var(--space-lg) 0';
+                        postWrapper.appendChild(hr);
+                    }
+                    
+                    container.appendChild(postWrapper);
                 });
             }
             
