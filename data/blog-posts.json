@@ -1,0 +1,16 @@
+[
+    {
+        "slug": "getting-started",
+        "title": "Getting Started with Nextfolio",
+        "publishedAt": "2024-08-13",
+        "summary": "Instructions to build and configure your Nextfolio portfolio.",
+        "tags": ["Configuration", "Web development"]
+    },
+    {
+        "slug": "custom-mdx-examples",
+        "title": "Custom MDX Examples",
+        "publishedAt": "2024-08-14",
+        "summary": "Examples of custom MDX components and how to use them in your blog posts.",
+        "tags": ["MDX", "Components", "Examples"]
+    }
+]

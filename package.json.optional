@@ -1,0 +1,27 @@
+{
+  "name": "vanilla-portfolio",
+  "version": "1.0.0",
+  "description": "A blazing-fast, lightweight portfolio built with pure HTML, CSS, and JavaScript",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "build": "bash build.sh",
+    "serve": "cd dist && python3 -m http.server 8000"
+  },
+  "keywords": [
+    "portfolio",
+    "vanilla",
+    "html",
+    "css",
+    "javascript",
+    "performance",
+    "glassmorphism"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {},
+  "optionalDependencies": {
+    "cssnano-cli": "^1.0.5",
+    "terser": "^5.27.0",
+    "imagemin-cli": "^7.0.0"
+  }
+}

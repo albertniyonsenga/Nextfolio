@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Nextfolio Blog</title>
+        <link>https://nextfolio-template.vercel.app/</link>
+        <description>A clean, fast, and lightweight portfolio blog</description>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 09 Dec 2024 00:00:00 GMT</lastBuildDate>
+        <atom:link href="https://nextfolio-template.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
+        
+        <item>
+            <title>Custom MDX Examples</title>
+            <link>https://nextfolio-template.vercel.app/blog/custom-mdx-examples.html</link>
+            <description>Examples of custom MDX components and how to use them in your blog posts.</description>
+            <pubDate>Wed, 14 Aug 2024 00:00:00 GMT</pubDate>
+            <guid>https://nextfolio-template.vercel.app/blog/custom-mdx-examples.html</guid>
+        </item>
+        
+        <item>
+            <title>Getting Started with Nextfolio</title>
+            <link>https://nextfolio-template.vercel.app/blog/getting-started.html</link>
+            <description>Instructions to build and configure your Nextfolio portfolio.</description>
+            <pubDate>Tue, 13 Aug 2024 00:00:00 GMT</pubDate>
+            <guid>https://nextfolio-template.vercel.app/blog/getting-started.html</guid>
+        </item>
+    </channel>
+</rss>

@@ -1,0 +1,38 @@
+[
+    {
+        "src": "/photos/photo1.jpg",
+        "alt": "Roman columns",
+        "title": "Ancient Roman Architecture",
+        "description": "Majestic Roman columns standing tall, a testament to ancient engineering prowess and timeless architectural beauty that continues to inspire modern design."
+    },
+    {
+        "src": "/photos/photo2.jpg",
+        "alt": "Big Ben",
+        "title": "Big Ben at Dusk",
+        "description": "The iconic clock tower of London, Big Ben stands as a symbol of British heritage and Victorian Gothic architecture against the twilight sky."
+    },
+    {
+        "src": "/photos/photo3.jpg",
+        "alt": "Sacré-Cœur Basilica",
+        "title": "Sacré-Cœur Basilica",
+        "description": "A breathtaking view of the Romano-Byzantine architecture of Sacré-Cœur, perched atop Montmartre in Paris, offering stunning panoramic views of the city."
+    },
+    {
+        "src": "/photos/photo4.jpg",
+        "alt": "Eiffel Tower",
+        "title": "Eiffel Tower",
+        "description": "The iron lattice tower that has become the global cultural icon of France, representing innovation, romance, and the belle époque of Paris."
+    },
+    {
+        "src": "/photos/photo5.jpg",
+        "alt": "Taj Mahal",
+        "title": "Taj Mahal at Sunrise",
+        "description": "An ivory-white marble mausoleum and UNESCO World Heritage Site, the Taj Mahal stands as the ultimate symbol of love and Mughal architectural excellence."
+    },
+    {
+        "src": "/photos/photo6.jpg",
+        "alt": "Colosseum",
+        "title": "The Colosseum",
+        "description": "Rome's ancient amphitheater, the Colosseum represents the grandeur of Imperial Rome and remains one of the most recognizable structures from antiquity."
+    }
+]
